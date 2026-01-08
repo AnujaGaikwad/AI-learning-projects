@@ -1,6 +1,5 @@
 import cv2
-
-# Use OpenCV's built-in haarcascade path
+# Use OpenCV's built-in haar cascade path
 alg = cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
 
 haar_cascade = cv2.CascadeClassifier(alg)
